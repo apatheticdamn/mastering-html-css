@@ -1,0 +1,78 @@
+.yt-sub-button {
+  background-color: red;
+  color: white;
+  margin-right: 40px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  vertical-align: top;
+}
+
+.yt-sub-button:active {
+  color: gray;
+  background-color: #F0F2F2;
+}
+
+.get-started-button {
+  background-color: dodgerblue;
+  color: white;
+  border-radius: 5px;
+  border: 3px solid dodgerblue;
+  padding: 10px;
+  height: 50px;
+  width: 120px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.20s, background-color 0.20s;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.get-started-button:hover {
+  background-color: white;
+  border-width: 3px;
+  color: dodgerblue;
+}
+
+.download-button {
+  background-color: white;
+  color: dodgerblue;
+  border-radius: 5px;
+  border: 3px solid dodgerblue;
+  padding: 10px;
+  height: 50px;
+  width: 120px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.20s, background-color 0.20s;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.download-button:hover {
+  background-color: dodgerblue;
+  border-width: 3px;
+  color: white;
+}
+
+.add-to-cart-button {
+  color: black;
+  background-color: #fffb00;
+  height: 40px;
+  width: 190px;
+  border-radius: 20px;
+  border: none;
+  font-size: 14px;
+  transition: box-shadow 0.20s;
+  opacity: 1; /* Initial opacity */
+}
+
+.add-to-cart-button:hover {
+  background-color: #fffb00; /* Keep the background color the same */
+  box-shadow: 2px 2px 8px gray;
+  opacity: 0.7; /* Change the opacity on hover */
+}
+
+.add-to-cart-button:active {
+  box-shadow: 1px 1px 4px gray;
+}
